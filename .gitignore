@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.data/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.DS_Store
+
+# Local document rendering and synthetic paid-call traces
+tmp/
+
+# Supabase CLI local state
+supabase/.temp/
